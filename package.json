@@ -1,0 +1,36 @@
+{
+  "name": "ci_adminlte2",
+  "version": "1.0.0",
+  "description": "CodeIgniter with AdminLTE 2 template. This project use blade.",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Sproypef@github.com/Sproypef/CodeIgniter_AdminLTE2.git"
+  },
+  "keywords": [
+    "code",
+    "igniter",
+    "adminlte",
+    "blade",
+    "ci",
+    "admin",
+    "lte",
+    "2"
+  ],
+  "author": "Nemias",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sproypef/CodeIgniter_AdminLTE2/issues"
+  },
+  "homepage": "https://github.com/Sproypef/CodeIgniter_AdminLTE2#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "laravel-elixir": "*"
+  }
+}
