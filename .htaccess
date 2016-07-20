@@ -1,0 +1,20 @@
+# ----------------------------------------------------------------------
+# | Disable list directory in browser                                  |
+# ----------------------------------------------------------------------
+Options -Indexes
+
+# ----------------------------------------------------------------------
+# | Hide index.php in url                                              |
+# ----------------------------------------------------------------------
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*)$ index.php/$1 [L]
+</IfModule>
+
+#<IfModule mod_rewrite.c>
+#  RewriteEngine on
+#  RewriteCond $1 !^(index\.php|images|assets|robots\.txt)
+#  RewriteRule ^(.*)$ /index.php/$1 [L]
+#</IfModule>
