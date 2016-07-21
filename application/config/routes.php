@@ -53,4 +53,8 @@ $route['default_controller'] = 'home';
 $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
+//Assets
 $route['assets/(:any)'] = 'assets/$1';
+
+//Pages of template AdminLTE2
+$route['home2'] = 'home2';

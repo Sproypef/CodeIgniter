@@ -1,6 +1,15 @@
 @extends('layouts.dashboard')
+
 @section('page_heading','Dashboard')
 @section('page_heading_small','Control panel')
+
+@section('breadcrumb_dashboard','Home')
+@section('breadcrumb_active','Dashboard')
+
+@section('boxes')
+      @include('layouts.small_boxes')
+@stop
+
 @section('section')
 <!-- Left col -->
 <section class="col-lg-7 connectedSortable">
@@ -425,4 +434,12 @@
 
 </section>
 <!-- right col -->
+@stop
+
+@section('custom_scripts_below')
+  <!-- Morris.js charts -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
+  <script src="<?= asset_url() ?>plugins/morris/morris.min.js"></script>
+  <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
+  <script src="<?= asset_url() ?>dist/js/pages/dashboard.js"></script>
 @stop
