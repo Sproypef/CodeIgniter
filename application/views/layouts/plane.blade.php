@@ -41,6 +41,8 @@
 
   	@yield('body')
 
+    @yield('custom_scripts_above')
+
     <!-- jQuery 2.2.3 -->
     <script src="<?= asset_url() ?>plugins/jQuery/jquery-2.2.3.min.js"></script>
     <!-- jQuery UI 1.11.4 -->
@@ -51,9 +53,6 @@
     </script>
     <!-- Bootstrap 3.3.6 -->
     <script src="<?= asset_url() ?>bootstrap/js/bootstrap.min.js"></script>
-    <!-- Morris.js charts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/raphael/2.1.0/raphael-min.js"></script>
-    <script src="<?= asset_url() ?>plugins/morris/morris.min.js"></script>
     <!-- Sparkline -->
     <script src="<?= asset_url() ?>plugins/sparkline/jquery.sparkline.min.js"></script>
     <!-- jvectormap -->
@@ -74,9 +73,10 @@
     <script src="<?= asset_url() ?>plugins/fastclick/fastclick.js"></script>
     <!-- AdminLTE App -->
     <script src="<?= asset_url() ?>dist/js/app.min.js"></script>
-    <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-    <script src="<?= asset_url() ?>dist/js/pages/dashboard.js"></script>
     <!-- AdminLTE for demo purposes -->
     <script src="<?= asset_url() ?>dist/js/demo.js"></script>
+
+    @yield('custom_scripts_below')
+
   </body>
 </html>
