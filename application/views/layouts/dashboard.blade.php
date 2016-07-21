@@ -12,14 +12,16 @@
         <small>@yield('page_heading_small')</small>
       </h1>
       <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Dashboard</li>
+        <li><a href="#"><i class="fa fa-dashboard"></i> @yield('breadcrumb_dashboard')</a></li>
+        <li class="active">@yield('breadcrumb_active')</li>
       </ol>
     </section>
 
     <!-- Main content -->
     <section class="content">
-      @include('layouts.small_boxes')
+
+      @yield('boxes')
+
       <!-- Main row -->
       <div class="row">
 
