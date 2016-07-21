@@ -23,7 +23,7 @@
       </div>
     </form>
     <!-- /.search form -->
-    @include('layouts.sidebar_menu')
+    @include('layouts.sidebars.main_sidebar_menu')
   </section>
   <!-- /.sidebar -->
 </aside>

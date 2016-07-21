@@ -1,8 +1,16 @@
-@extends('layouts.plane')
+@extends('layouts.main_plane')
+
+@section('styles')
+  @yield('custom_styles')
+@stop
+
 @section('body')
 <div class="wrapper">
+
   @include('layouts.main_header')
-  @include('layouts.main_sidebar')
+
+  @include('layouts.sidebars.main_sidebar')
+
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
     <!-- Content Header (Page header) -->
@@ -35,10 +43,22 @@
   </div>
   <!-- /.content-wrapper -->
   @include('layouts.main_footer')
-  @include('layouts.control_sidebar')
+  @include('layouts.sidebars.sidebar_control')
   <!-- Add the sidebar's background. This div must be placed
        immediately after the control sidebar -->
   <div class="control-sidebar-bg"></div>
 </div>
 <!-- ./wrapper -->
+@stop
+
+@section('scripts_above')
+  @yield('custom_scripts_above')
+@stop
+
+@section('scripts_middle')
+  @yield('custom_scripts_middle')
+@stop
+
+@section('scripts_below')
+  @yield('custom_scripts_below')
 @stop
