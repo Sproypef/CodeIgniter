@@ -10,9 +10,13 @@ class Home extends SY_Controller {
   public function index()
   {
     //With parameters
-    //echo $this->blade->view()->make('home', ['name' => 'pepe', 'users' => ['juan', 'pepe', 'andrés']])->render();
+    $breadcrumb = array(
+      ['name' => 'Home', 'href' => '#'],
+      ['name' => 'Dashboard', 'href' => '#']
+    );
+    echo $this->blade->view()->make('home', ['breadcrumb' => $breadcrumb])->render();
 
     //Whitout parameters
-    echo $this->blade->view()->make('home')->render();
+    //echo $this->blade->view()->make('home')->render();
   }
 }

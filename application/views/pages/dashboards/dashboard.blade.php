@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="{{asset_url()}}plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css">
 @stop
 
-@section('boxes')
+@section('content_boxes')
   <!-- Small boxes (Stat box) -->
   <div class="row">
     <div class="col-lg-3 col-xs-6">
@@ -82,7 +82,7 @@
   <!-- /.row -->
 @stop
 
-@section('custom_scripts_middle')
+@section('custom_scripts_below')
   <!-- jQuery UI 1.11.4 -->
   <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
   <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->

@@ -6,7 +6,7 @@
 @section('breadcrumb_dashboard','Home')
 @section('breadcrumb_active','Dashboard')
 
-@section('section')
+@section('content_main_row')
   <!-- Left col -->
   <section class="col-lg-7 connectedSortable">
     <!-- Custom tabs (Charts with tabs)-->

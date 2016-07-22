@@ -1,11 +1,11 @@
 @extends('layouts.main_dashboard')
 
-@section('custom_styles')
+@section('styles')
   <!-- jvectormap -->
   <link rel="stylesheet" href="{{asset_url()}}plugins/jvectormap/jquery-jvectormap-1.2.2.css">
-@stop
+@append
 
-@section('boxes')
+@section('content_boxes')
   <!-- Small boxes (Stat box) -->
   <div class="row">
     <div class="col-lg-3 col-xs-6">
@@ -72,7 +72,7 @@
   <!-- /.row -->
 @stop
 
-@section('custom_scripts_below')
+@section('scripts_below')
   <!-- Sparkline -->
   <script src="{{asset_url()}}plugins/sparkline/jquery.sparkline.min.js"></script>
   <!-- jvectormap -->
