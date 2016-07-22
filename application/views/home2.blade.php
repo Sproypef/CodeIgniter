@@ -6,7 +6,7 @@
 @section('breadcrumb_dashboard','Home')
 @section('breadcrumb_active','Dashboard')
 
-@section('boxes')
+@section('content_boxes')
       <!-- Info boxes -->
       <div class="row">
         <div class="col-md-3 col-sm-6 col-xs-12">
@@ -202,7 +202,7 @@
       <!-- /.row -->
 @stop
 
-@section('section')
+@section('content_main_row')
   <!-- Left col -->
   <div class="col-md-8">
     <!-- MAP & BOX PANE -->
