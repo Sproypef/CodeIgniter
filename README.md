@@ -2,7 +2,10 @@
 CodeIgniter with AdminLTE 2 template. This project use blade.
 
 #Version CodeIgniter
-This project contains CodeIgniter 3.X (current 3.1.0-dev).
+This project contains CodeIgniter 3.1-stable.
+
+#Version Project
+This project is BETA
 
 #Instalation
 
