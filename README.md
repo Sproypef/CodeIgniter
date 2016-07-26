@@ -8,7 +8,7 @@ This project contains CodeIgniter 3.X (current 3.1.0-dev).
 
 >**Composer**
 
->>`composer create-project sproypef/ci_lte2`
+>>`composer create-project -s beta sproypef/ci_lte2`
 
 >**Manual**
 
