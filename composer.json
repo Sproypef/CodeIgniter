@@ -1,14 +1,12 @@
 {
-	"description": "The CodeIgniter framework",
-	"name": "codeigniter/framework",
+	"description": "The CodeIgniter framework whit AdminLTE2 theme (Blade)",
+	"name": "sproypef/ci_lte2",
 	"type": "project",
-	"homepage": "https://codeigniter.com",
+	"homepage": "https://sproypef.com",
 	"license": "MIT",
 	"support": {
-		"forum": "http://forum.codeigniter.com/",
-		"wiki": "https://github.com/bcit-ci/CodeIgniter/wiki",
-		"irc": "irc://irc.freenode.net/codeigniter",
-		"source": "https://github.com/bcit-ci/CodeIgniter"
+		"wiki": "https://github.com/Sproypef/CodeIgniter_AdminLTE2_Blade/wiki",
+		"source": "https://github.com/Sproypef/CodeIgniter_AdminLTE2_Blade"
 	},
 	"require": {
 		"php": ">=5.2.4",
